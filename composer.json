@@ -1,5 +1,5 @@
 {
-  "name": "DigitalPygmalion/badge-factor-certificate",
+  "name": "DigitalPygmalion/badge-factor-enseignant-event",
   "description": "",
   "type": "wordpress-plugin",
   "keywords": [
@@ -8,11 +8,11 @@
     "badges",
     "wordpress"
   ],
-  "homepage": "https://github.com/DigitalPygmalion/badge-factor-certificate",
+  "homepage": "https://github.com/DigitalPygmalion/badge-factor-enseignant-event",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/DigitalPygmalion/badge-factor-certificate/issues",
-    "wiki": "https://github.com/DigitalPygmalion/badge-factor-certificate/wiki"
+    "issues": "https://github.com/DigitalPygmalion/badge-factor-enseignant-event/issues",
+    "wiki": "https://github.com/DigitalPygmalion/badge-factor-enseignant-event/wiki"
   },
   "require": {
     "composer/installers": "~1.0",
