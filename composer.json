@@ -1,0 +1,21 @@
+{
+  "name": "DigitalPygmalion/badge-factor-certificate",
+  "description": "",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "badge-factor",
+    "badgeos",
+    "badges",
+    "wordpress"
+  ],
+  "homepage": "https://github.com/DigitalPygmalion/badge-factor-certificate",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/DigitalPygmalion/badge-factor-certificate/issues",
+    "wiki": "https://github.com/DigitalPygmalion/badge-factor-certificate/wiki"
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "php": ">=5.6"
+  }
+}

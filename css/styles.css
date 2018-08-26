@@ -1,0 +1,13 @@
+.post-type-inscription_badge #misc-publishing-actions{
+    display: none;
+}
+
+.post-type-inscription_badge #minor-publishing-actions
+{
+    display: none;
+}
+
+.type-inscription_badge .row-actions .inline {
+
+    display: none;
+}
