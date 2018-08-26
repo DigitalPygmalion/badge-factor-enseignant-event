@@ -215,10 +215,6 @@ class BadgeFactorEnseignantEvent
         $role->add_cap('edit_published_inscription_badges');
         $role->add_cap('create_inscription_badges');
 
-        acf_add_options_sub_page(array('page_title' => 'Créer une page d\'invitation',
-            'menu_title' => 'Créer une page d\'invitation',
-            'parent_slug' => "edit.php?post_type=inscription_badge",));
-
         if (function_exists('acf_add_local_field_group')):
 
             acf_add_local_field_group(array(
