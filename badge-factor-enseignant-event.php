@@ -215,10 +215,10 @@ class BadgeFactorEnseignantEvent
         $role->add_cap('edit_published_inscription_badges');
         $role->add_cap('create_inscription_badges');
 
-        if (function_exists('acf_add_local_field_group')):
+        if (function_exists('register_field_group')):
 
-            acf_add_local_field_group(array(
-                'key' => 'group_5ac536651799a',
+            register_field_group(array(
+                'id' => 'invitation',
                 'title' => 'Invitation',
                 'fields' => array(
                     array(
@@ -304,14 +304,14 @@ class BadgeFactorEnseignantEvent
                         ),
                     ),
                 ),
+                'options' => array(
+                    'position' => 'normal',
+                    'layout' => 'default',
+                    'hide_on_screen' => array(
+                    ),
+                ),
                 'menu_order' => 0,
-                'position' => 'normal',
-                'style' => 'default',
-                'label_placement' => 'top',
-                'instruction_placement' => 'label',
-                'hide_on_screen' => '',
-                'active' => 1,
-                'description' => '',
+                
             ));
 
             acf_add_local_field_group(array(
