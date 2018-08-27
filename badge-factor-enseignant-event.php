@@ -314,8 +314,8 @@ class BadgeFactorEnseignantEvent
                 
             ));
 
-            acf_add_local_field_group(array(
-                'key' => 'group_5acd1f13f3c3d',
+            register_field_group(array(
+                'id' => 'organisation',
                 'title' => 'Organisation',
                 'fields' => array(
                     array(
@@ -368,14 +368,14 @@ class BadgeFactorEnseignantEvent
                         ),
                     ),
                 ),
+                'options' => array(
+                    'position' => 'normal',
+                    'layout' => 'default',
+                    'hide_on_screen' => array(
+                    ),
+                ),
                 'menu_order' => 0,
-                'position' => 'normal',
-                'style' => 'default',
-                'label_placement' => 'top',
-                'instruction_placement' => 'label',
-                'hide_on_screen' => '',
-                'active' => 1,
-                'description' => '',
+              
             ));
 
 
